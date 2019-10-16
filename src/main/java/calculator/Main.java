@@ -9,7 +9,7 @@ public class Main {
 		Scanner s = new Scanner(System.in);
 		String eq = s.nextLine();
 
-		EquationSolver equationSolver = new EquationSolver(s);
+		EquationSolver equationSolver = new EquationSolver(eq);
         System.out.println(equationSolver.operate());
     }
 }
