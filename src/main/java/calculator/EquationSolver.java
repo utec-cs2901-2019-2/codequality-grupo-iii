@@ -127,7 +127,7 @@ public class EquationSolver {
             j++;
         
 
-        double number = Double.parseDouble(this.equation.substring(i, j));
+        double number = Double.parseDouble(this.equation.substring(i, i + j));
         this.numbers.put(formated_equation.length(), number);
 
         formated_equation.append('?');
